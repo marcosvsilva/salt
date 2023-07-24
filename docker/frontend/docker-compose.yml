@@ -3,7 +3,7 @@ version: "3.9"
 services:
     cms-frontend:
         build:
-            context: ../../../chatbot-cms-frontend-v2/
+            context: ../../../salt-frontend/
             args:
                 - LOCALE=pt-BR
                 - FALLBACK_LOCALE=pt-BR
