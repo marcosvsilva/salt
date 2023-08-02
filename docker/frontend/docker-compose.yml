@@ -2,14 +2,14 @@ version: "3.9"
 
 services:
     cms-frontend:
-        build:
-            context: ../../../salt-frontend/
-            args:
-                - LOCALE=pt-BR
-                - FALLBACK_LOCALE=pt-BR
-                - APP_API=${SERVER_URL}
+        build: ../../../salt-frontend/
+        restart: unless-stopped
+        network_mode: host
         restart: unless-stopped
         ports:
             - "${PORT}:8080"
         environment:
-            - PORT=8080
+            - LOCALE=pt-BR
+            - FALLBACK_LOCALE=pt-BR
+            - APP_API=${SERVER_URL}
+            
