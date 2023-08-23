@@ -1,17 +1,21 @@
-# Salt software.
+# Salt Software: Your Ultimate Shopping List Companion
 
-Salt software is a platform for a shopping list. That platform has a feature to build a shopping list, save prices and compare with history shopping, suggest places that have a chipper price, and new features are coming.
+Welcome to Salt Software, the platform for managing shopping lists intelligently.
+Our platform offers features including list creation, price tracking, historical shopping comparisons, and even intelligent suggestions for cost-effective shopping destinations
 
-## Getting started
+## Getting Started
 
-This repository has docker-compose files to deploy salt software.
+This repository provides the essential Docker Compose files for deploying the platform.
 
-First, get the services:
+To deploy, follow these steps:
 
-* [salt-server](https://github.com/marcosvsilva/salt-server)
-* [salt-frontend](https://github.com/marcosvsilva/salt-frontend)
+1. Get the necessary services from the following repositories:
+   - [salt-server](https://github.com/marcosvsilva/salt-server)
+   - [salt-frontend](https://github.com/marcosvsilva/salt-frontend)
 
-Next, use docker-compose to build docker images and deploy application for each docker-compose:
+2. Tailor your environment settings by referring to the provided example environment files corresponding to each image.
+
+3. Lastly, employ the Docker Compose to initiate the build process and deploy the instances:
 
 ```bash
 docker-compose build && docker-compose up
@@ -19,4 +23,4 @@ docker-compose build && docker-compose up
 
 ## License
 
-This site template is a commercial product and is licensed under the [MIT license](https://mit-license.org/).
+We take pride in offering Salt Software, licensed under the [MIT license](https://mit-license.org/). 
