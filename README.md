@@ -1,4 +1,4 @@
-# Salt Software: Your Ultimate Shopping List Companion
+# Salt Software
 
 Welcome to Salt Software, the platform for managing shopping lists intelligently.
 Our platform offers features including list creation, price tracking, historical shopping comparisons, and even intelligent suggestions for cost-effective shopping destinations
